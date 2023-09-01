@@ -1,0 +1,86 @@
+# Apple Direct
+
+# Apple China
+HOST-SUFFIX, apple.com.cn
+
+# FindMy
+user-agent, *com.apple.mobileme.fmip1
+user-agent, FindMyFriends*
+user-agent, FindMyiPhone*
+user-agent, FMDClient*
+user-agent, FMFD*
+user-agent, fmflocatord*
+
+# Weather
+USER-AGENT,*WeatherFoundation*
+HOST, weather-data.apple.com
+
+# Store
+HOST-SUFFIX, store.apple.com
+
+# Spotlight
+HOST, api.smoot.apple.cn
+
+# Hotspot captive
+HOST, captive.apple.com
+
+# Apple Pay
+HOST, smp-device-content.apple.com
+HOST-KEYWORD, smp-device
+USER-AGENT,passd*
+USER-AGENT,Wallet*
+
+# Reserve
+HOST, reserve-prime.apple.com
+
+# Push
+HOST-KEYWORD, push-apple.com.akadns.net
+HOST-SUFFIX, push.apple.com.akadns.net
+HOST-SUFFIX, push.apple.com
+
+# Asset Cache Locator Service
+HOST-SUFFIX, lcdn-locator.apple.com
+
+# Caching Server Registration
+HOST-SUFFIX, lcdn-registration.apple.com
+
+# Translation
+# See https://github.com/ripperhe/Bob/issues/405
+HOST, sequoia.apple.com
+HOST, seed-sequoia.siri.apple.com
+
+# Apple Global CDN
+#
+# iOS App Store
+HOST, iosapps.itunes.apple.com
+USER-AGENT,com.apple.appstored*
+
+# Mac App Store
+HOST, osxapps.itunes.apple.com
+HOST, oscdn.apple.com
+PROCESS-NAME,storedownloadd
+
+# App Store & iTunes Images
+host-suffix, mzstatic.com
+
+# Apple Music Streaming
+host, aod.itunes.apple.com
+host, mvod.itunes.apple.com
+host, streamingaudio.itunes.apple.com
+
+# Update
+host, supportdownload.apple.com
+host, appldnld.apple.com
+host, swcdn.apple.com
+host, apptrailers.itunes.apple.com
+host, updates-http.cdn-apple.com
+host, updates.cdn-apple.com
+
+# Map
+host-suffix, ls.apple.com
+host, gs-loc-cn.apple.com
+
+# Other
+host, download.developer.apple.com
+host, downloaddispatch.itunes.apple.com
+host, app-site-association.cdn-apple.com
