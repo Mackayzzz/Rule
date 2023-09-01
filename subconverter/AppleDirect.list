@@ -61,7 +61,7 @@ DOMAIN, oscdn.apple.com
 PROCESS-NAME,storedownloadd
 
 # App Store & iTunes Images
-DOMAIN-suffix, mzstatic.com
+DOMAIN-SUFFIX, mzstatic.com
 
 # Apple Music Streaming
 DOMAIN, aod.itunes.apple.com
@@ -77,7 +77,7 @@ DOMAIN, updates-http.cdn-apple.com
 DOMAIN, updates.cdn-apple.com
 
 # Map
-DOMAIN-suffix, ls.apple.com
+DOMAIN-SUFFIX, ls.apple.com
 DOMAIN, gs-loc-cn.apple.com
 
 # Other
